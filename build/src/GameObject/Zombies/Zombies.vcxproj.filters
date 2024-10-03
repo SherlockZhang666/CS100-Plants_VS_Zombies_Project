@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\Zombie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\Regular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\BucketHead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\PoleVaulting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48449338-BEBB-3EA7-AC0A-EAC6D62D3FBC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

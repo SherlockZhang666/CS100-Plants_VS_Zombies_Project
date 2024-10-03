@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC199835-A344-3ADF-BDD0-9ED554DA3FB2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\0c8f73a224b83771f291fd661adc1877\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mingw64\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.27\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\mingw64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\Framework\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Bullets\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Plants\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameWorld\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\config.h.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.pc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.rc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\SOIL\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\freeglut\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\Framework\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Bullets\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Plants\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Zombies\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameWorld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mingw64\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.27\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\mingw64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\Framework\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Bullets\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Plants\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameWorld\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\config.h.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.pc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.rc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\SOIL\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\freeglut\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\Framework\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Bullets\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Plants\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Zombies\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameWorld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mingw64\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.27\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\mingw64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\Framework\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Bullets\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Plants\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameWorld\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\config.h.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.pc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.rc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\SOIL\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\freeglut\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\Framework\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Bullets\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Plants\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Zombies\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameWorld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mingw64\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.27\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.27\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\mingw64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\Framework\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Bullets\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Plants\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameObject\Zombies\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\GameWorld\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\CMakeLists.txt;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\config.h.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.pc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\freeglut.rc.in;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\SOIL\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\freeglut\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\Framework\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Bullets\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Plants\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Zombies\CMakeFiles\generate.stamp;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameWorld\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DAC517D3-4ABB-332D-985B-BF17ABA00D2D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PvZ</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\Framework.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Framework.lib;lib\Debug\freeglut.lib;opengl32.lib;winmm.lib;lib\Debug\SOIL.lib;lib\Debug\Bullets.lib;lib\Debug\Plants.lib;lib\Debug\Zombies.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/lib/Debug/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/bin/Debug/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\Framework.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Framework.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;lib\Release\SOIL.lib;lib\Release\Bullets.lib;lib\Release\Plants.lib;lib\Release\Zombies.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/lib/Release/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/bin/Release/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\Framework.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Framework.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\SOIL.lib;lib\MinSizeRel\Bullets.lib;lib\MinSizeRel\Plants.lib;lib\MinSizeRel\Zombies.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/lib/MinSizeRel/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/bin/MinSizeRel/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\freeglut\include;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\SOIL.lib;lib\RelWithDebInfo\Bullets.lib;lib\RelWithDebInfo\Plants.lib;lib\RelWithDebInfo\Zombies.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/lib/RelWithDebInfo/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/bin/RelWithDebInfo/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2 -BE:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build --check-stamp-file E:/ShanghaiTech/CS/CS100/Coding/HW8/hw8_v2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\3.27.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\ZERO_CHECK.vcxproj">
+      <Project>{FC199835-A344-3ADF-BDD0-9ED554DA3FB2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Bullets\Bullets.vcxproj">
+      <Project>{4369FBF8-B817-317B-B827-F34025083EF3}</Project>
+      <Name>Bullets</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\Framework\Framework.vcxproj">
+      <Project>{9EB9833D-FE31-3575-81B6-AE073BB9B71A}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\GameObject.vcxproj">
+      <Project>{67BBFA7F-EC22-33AF-964C-489D0F1D2870}</Project>
+      <Name>GameObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Plants\Plants.vcxproj">
+      <Project>{3D7432A8-C319-35AA-B23C-75198313B511}</Project>
+      <Name>Plants</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\SOIL\SOIL.vcxproj">
+      <Project>{9725C70D-CA88-3803-98E8-43A1229F2A5B}</Project>
+      <Name>SOIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\src\GameObject\Zombies\Zombies.vcxproj">
+      <Project>{499D9F92-A141-3FF7-BCEB-BC6B9F4D5C95}</Project>
+      <Name>Zombies</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\ShanghaiTech\CS\CS100\Coding\HW8\hw8_v2\build\freeglut\freeglut.vcxproj">
+      <Project>{10C1F801-7241-32CD-B137-ECC1BFD8600E}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
